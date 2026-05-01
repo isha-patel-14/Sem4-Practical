@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir('demo-jenkins-pipeline-main') {
-                    sh 'javac index.java'
+                    bat 'javac index.java'
                 }
             }
         }
@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('demo-jenkins-pipeline-main') {
-                    sh 'java index'
+                    bat 'java index'
                 }
             }
         }

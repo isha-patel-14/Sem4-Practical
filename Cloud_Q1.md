@@ -42,7 +42,7 @@ A Smart Traffic System is a city-wide intelligent system that uses IoT sensors, 
 - Used for heavy analytics, storage, ML training  
 - Scalable and cost-effective  
 
-✅ **Conclusion:** Use a **Hybrid Approach (Edge + Cloud)**
+ **Conclusion:** Use a **Hybrid Approach (Edge + Cloud)**
 
 ---
 

@@ -152,7 +152,7 @@ public class index {
                 }
 
             } while (choice != 5);
-            sc.close();
+            
             con.close();
 
         } catch (Exception e) {

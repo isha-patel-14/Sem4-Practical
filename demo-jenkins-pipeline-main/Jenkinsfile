@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git 'https://github.com/isha-patel-14/Sem4-Practical.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 dir('demo-jenkins-pipeline-main') {

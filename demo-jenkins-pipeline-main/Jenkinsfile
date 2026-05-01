@@ -5,25 +5,29 @@ pipeline {
 
         stage('Clone') {
             steps {
-                echo 'Cloning repository...'
+                git 'https://github.com/isha-patel-14/Sem4-Practical.git'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building project...'
+                dir('demo-jenkins-pipeline-main') {
+                    sh 'javac index.java'
+                }
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Testing project...'
+                dir('demo-jenkins-pipeline-main') {
+                    sh 'java index'
+                }
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploying project...'
+                echo 'Deploying...'
             }
         }
     }

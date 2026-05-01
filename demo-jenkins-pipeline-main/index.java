@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.Scanner;
 
-public class CrudOperation {
+public class index {
 
     static final String URL = "jdbc:mysql://localhost:3306/testdb";
     static final String USER = "root";
